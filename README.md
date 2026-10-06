@@ -34,6 +34,14 @@ Stack: Docker Compose · FastAPI (API + worker) · React/Vite dashboard with thr
 
 Research and paper trading only. Data: a paid fundamentals/price feed plus an options data feed (v3 API).
 
+## See it
+
+Results before theory. Time-to-demo is 90 seconds: if it runs, you can see it. Open an issue to ask for a live walkthrough.
+
+## Not in this repo
+
+The engine, the factor definitions and the live ledger. Happy to go deeper on tuning and evaluation details. A more aggressive causal-patch approach exists and is not public yet.
+
 ## Rights
 
 See [NOTICE](NOTICE). Documentation shared for review. The engine source is not included and not licensed.
