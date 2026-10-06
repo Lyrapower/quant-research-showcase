@@ -1,3 +1,5 @@
+![banner](assets/banner.png)
+
 # Quant Research Platform — Showcase
 
 A paper-trading research platform for discovering, testing and retiring equity and options signals with point-in-time discipline. This repository is a **showcase**: it documents the design, the gates and real outputs. The engine source is private.
