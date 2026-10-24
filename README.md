@@ -2,9 +2,9 @@
 
 # Quant Research Platform — Showcase
 
-A paper-trading research platform for discovering, testing and retiring equity and options signals with point-in-time discipline. This repository is a **showcase**: it documents the design, the gates and real outputs. The engine source is private.
+The research layer of a live, real-money options trading system: it discovers, tests and retires equity and options signals with point-in-time discipline. This repository is a **showcase**: it documents the design, the gates and real outputs. The engine source is private.
 
-**No live trading.** The platform has no order-routing interface. Every signal is settled against real market quotes in a shadow ledger, never against a broker.
+**Live with real capital.** The trading system this layer feeds places real orders with my own money every market day. Research and execution are kept apart: this layer has no order routing of its own, and every published signal is also settled against real market quotes in a shadow ledger, so research is graded separately from execution.
 
 ## What it does
 
@@ -32,7 +32,7 @@ Stack: Docker Compose · FastAPI (API + worker) · React/Vite dashboard with thr
 
 ## Status
 
-Research and paper trading only. Data: a paid fundamentals/price feed plus an options data feed (v3 API).
+Research layer of a live system; execution trades real money and stays private. Data: a paid fundamentals/price feed plus an options data feed (v3 API).
 
 ## See it
 
@@ -40,7 +40,7 @@ Results before theory. Time-to-demo is 90 seconds: if it runs, you can see it. O
 
 ## Not in this repo
 
-The engine, the factor definitions and the live ledger. Happy to go deeper on tuning and evaluation details. A more aggressive causal-patch approach exists and is not public yet.
+The engine, the factor definitions, the live ledger and the execution system. Happy to go deeper on tuning and evaluation details. A more aggressive causal-patch approach exists and is not public yet.
 
 ## Rights
 
